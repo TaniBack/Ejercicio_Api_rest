@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio_api_rest",
+  "version": "1.0.0",
+  "description": "Clase 24 API REST - Films Ejercicio de clase 24 sobre creación de API Rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaniuOp/Ejercicio_Api_rest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaniuOp/Ejercicio_Api_rest/issues"
+  },
+  "homepage": "https://github.com/TaniuOp/Ejercicio_Api_rest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "pug": "^3.0.2"
+  }
+}
