@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title="HOME"
+        body
+            fieldset 
+                form(action='/api/film', method='POST')
+                    input(type='text', name='title', placeholder='Introduce titulo de pelicula')  
+                    br
+                    input(type='text', name='year', placeholder='Introduce año de pelicula')  
+                    br
+                    input(type='text', name='director', placeholder='Introduce el director pelicula')  
+                    br
+                    input(type='submit', value='Crear')
